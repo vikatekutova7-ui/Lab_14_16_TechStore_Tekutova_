@@ -32,3 +32,25 @@ body {
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 50%;
 }
+#home {
+background: linear-gradient(135deg, #56e0e2 0%, #4b6fa2 100%);
+color: white;
+min-height: 400px;
+display: flex;
+align-items: center;
+}
+#home h1 {
+    color: white;
+    font-weight: 600;
+}
+#home .lead {
+    color: rgba(255, 255, 255, 0.9);    
+}
+#home .btn {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+#home .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
